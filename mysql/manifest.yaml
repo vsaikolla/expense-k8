@@ -6,6 +6,7 @@ metadata:
     component: mysql
     project: expense-k8
     tier: database
+    env: dev
 spec:
   replicas: 2
   selector:
@@ -13,12 +14,14 @@ spec:
       component: mysql
       project: expense-k8
       tier: database
+      env: dev
   template:
     metadata:
       labels:
         component: mysql
         project: expense-k8
         tier: database
+        env: dev
     spec:
       containers:
         - name: mysql

@@ -1,0 +1,8 @@
+apiversion: v1
+kind: namespace
+metadata:
+  name: mysql
+  labels:
+    project: expense
+    component: mysql
+    env: dev
