@@ -38,7 +38,7 @@ spec:
           image: joindevops/backend:v1.0
           envFrom:
           - configMapRef:
-            name: backend-config
+              name: backend-config
 
 ---
 apiVersion: v1
