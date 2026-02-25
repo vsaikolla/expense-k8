@@ -5,7 +5,7 @@ metadata:
   namespace: expense
   labels:
     component: mysql
-    project: expense-k8
+    project: expense
     tier: database
     env: dev
 spec:
@@ -13,14 +13,14 @@ spec:
   selector:
     matchLabels:
       component: mysql
-      project: expense-k8
+      project: expense
       tier: database
       env: dev
   template:
     metadata:
       labels:
         component: mysql
-        project: expense-k8
+        project: expense
         tier: database
         env: dev
     spec:
