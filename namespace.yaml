@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: expense
+  name: expense-k8
   labels:
-    name: expense
+    name: expense-k8
     environment: dev
