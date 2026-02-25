@@ -2,7 +2,7 @@ apiversion: apps/v1
 kind: deployment
 metadata:
   name: mysql
-  namespace: expense
+  namespace: expense-k8
   labels:
     component: mysql
     project: expense
