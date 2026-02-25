@@ -36,9 +36,9 @@ spec:
       containers:
         - name: frontend
           image: joindevops/frontend:1.0
-          envFrom:
-          - configMapRef:
-              name: frontend-config
+          # envFrom:
+          # - configMapRef:
+          #     name: frontend-config
 
 ---
 apiVersion: v1
